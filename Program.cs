@@ -22,6 +22,9 @@ namespace Shapes
             shapesList.AddShape(triangle);
             
             shapesList.ShowAllShapes();
+            
+            Console.WriteLine($"The biggest square: {shapesList.GetBiggestSquare()} |" +
+                              $" Total square: {shapesList.GetTotalSquare()}");
         }
     }
 }

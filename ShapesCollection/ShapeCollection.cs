@@ -33,5 +33,7 @@ namespace OOPShapesTask.ShapesCollection
         }
 
         public double GetBiggestSquare() => _shapeList.Max(shape => shape.GetSquare());
+
+        public double GetTotalSquare() => _shapeList.Sum(shape => shape.GetSquare());
     }
 }
